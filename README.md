@@ -16,6 +16,10 @@ Technologies:
 - Selenium WebDriver
 - Keyboard/Mouse Automation
 
+## Notes ##
+
+In my code, Kijiji_Ad_Automation, I initially hardcoded the login credentials directly in the script, but this is not a good security practice. A better approach is to store the login information in a separate, secure file (e.g., a text file or environment variables) and have the script read the credentials from there.
+
 ## Attributions & Remarks ##
 
 The entirity of this project rested on the kind help of the following websites. As always, ChatGPT proved an immense help when nothing else worked (thank you Sam!).
@@ -30,4 +34,4 @@ The entirity of this project rested on the kind help of the following websites. 
 - https://medium.com/@gbemiadekoya/importing-python-libraries-in-vs-code-e9e7806586a7
 
 
-Please feel free to use this automation! And finally, any feedback on how to optimize this code would be greatly appreciated.
+Please feel free to use this code! Lastly, any feedback on how to optimize this code would be greatly appreciated.
